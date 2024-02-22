@@ -31,6 +31,7 @@
         </div>
         <hr />
         <TotalSell />
+        <SumGrid />
     </main>
 </template>
 <style scoped>
@@ -98,6 +99,7 @@ hr {
 </style>
 <script>
 import TotalSell from '../components/TotalSellChart.vue'
+import SumGrid from '../components/SummaryGrid.vue'
 
 export default {
     props: {
@@ -117,6 +119,7 @@ export default {
     },
     components: {
         'TotalSell': TotalSell,
+        'SumGrid': SumGrid,
     }
 }
 </script>

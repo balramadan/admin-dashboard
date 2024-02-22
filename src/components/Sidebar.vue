@@ -181,7 +181,7 @@ export default {
         },
         profileRole: {
             type: String,
-            default: 'Frontend Developer',
+            default: 'Pemula Frontend',
         },
         isExitButton: {
             type: Boolean,
